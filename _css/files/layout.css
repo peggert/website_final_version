@@ -1,0 +1,354 @@
+
+/* CSS Document */
+
+html
+{
+	font-family: Helvetica;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body
+{
+	margin: 0;
+}
+
+.peggert-menu
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.fixed-menu
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3
+}
+
+.horizontal-menu
+{
+	width: 100%;
+	height: 90px;
+}
+
+.menu-heading
+{
+	text-transform: uppercase;
+	color: #565d64
+}
+
+.linked-to-peggert-menu
+{
+	color: #777
+}
+
+.horizontal-menu .pure-menu-separator
+{
+	width: 1px;
+	height: 1.3em;
+	margin: 0 .3em
+}
+
+.linked-to-peggert-menu, .pure-menu-disabled, .menu-heading
+{
+	padding: .5em 1em
+}
+
+.pure-menu-disabled .linked-to-peggert-menu:hover
+{
+	background-color: transparent
+}
+
+.pure-menu-active>.linked-to-peggert-menu, .linked-to-peggert-menu:hover, .linked-to-peggert-menu:focus
+{
+	background-color: #eee
+}
+
+.horizontal-menu .peggert-menu-list
+{
+	display: inline-block
+}
+
+.horizontal-menu .peggert-menu-item, .horizontal-menu .menu-heading, .horizontal-menu .pure-menu-separator
+{
+	display: inline-block;
+ *display: inline;
+	zoom: 1;
+	vertical-align: middle
+}
+
+aside, details, figcaption, footer, figure, header, hgroup, main, menu, section, summary
+{
+	display: block
+}
+
+nav
+{
+	display: inline-block;
+	float: right;
+}
+
+.peggert-menu-list, .peggert-menu-item
+{
+	position: relative
+}
+
+.peggert-menu-list
+{
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.peggert-menu-item
+{
+	padding: 0;
+	margin: 0;
+	height: 100%
+}
+
+.linked-to-peggert-menu, .menu-heading
+{
+	display: block;
+	text-decoration: none;
+	white-space: nowrap
+}
+
+.peggert-menu-item .peggert-menu-item
+{
+	display: block
+}
+
+.peggert-menu-children
+{
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 3
+}
+
+.peggert-menu-horizontal .peggert-menu-children
+{
+	left: 0;
+	top: auto;
+	width: inherit
+}
+
+/* Main Button */
+
+.main-button
+{
+	display: inline-block;
+	zoom: 1;
+	line-height: normal;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	box-sizing: border-box
+}
+*/ .main-button::-moz-focus-inner {
+ padding: 0;
+ border: 0
+}
+
+.main-button
+{
+	font-family: inherit;
+	font-size: 100%;
+	padding: .5em 1em;
+	color: #444;
+	color: rgba(0, 0, 0, .8);
+	border: 1px solid #999;
+	border: 0 rgba(0, 0, 0, 0);
+	background-color: #E6E6E6;
+	text-decoration: none;
+	border-radius: 2px
+}
+
+.main-button-hover, .main-button:hover, .main-button:focus, .main-button-active, .main-button:active
+{
+	background-color: #E2B728;
+	box-shadow: 0 0 5px #E2B728;
+	transition-duration: 0.8s;
+}
+
+.main-button:focus
+{
+	outline: 0
+}
+
+.main-button[disabled], .main-button-disabled, .main-button-disabled:hover, .main-button-disabled:focus, .main-button-disabled:active
+{
+	border: 0;
+	background-image: none;
+	-khtml-opacity: .4;
+	-moz-opacity: .4;
+	opacity: .4;
+	cursor: not-allowed;
+	box-shadow: none
+}
+ .main-button::-moz-focus-inner {
+ padding: 0;
+ border: 0
+}
+
+.main-button-primary, .main-button-selected, a.main-button-primary, a.main-button-selected
+{
+	background-color: #fed136;
+	color: #fff;
+	margin-top:	1em;
+}
+
+.welcome-text
+{
+	text-align:center
+}
+
+/* Footer */
+
+.footer-main
+{
+	background-color: #000;
+	width: 100%;
+	box-sizing: border-box;
+	font: 17px Helvetica, Arial, cursive;
+	text-align: left;
+	padding: 60px 55px 55px;
+	margin-top: 75px;
+	overflow: hidden;
+}
+
+/* left Footer */
+
+.footer-main .footer-left
+{
+	float: left;
+}
+
+/* Page Title */
+
+.footer-main h3
+{
+	color:  #fed136;
+	margin: 0 0 15px;
+	font: 36px "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+/* Footer menue bar */
+
+.footer-main .footer-menue
+{
+	color:  #fff;
+	font-weight: normal;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-main .footer-menue a
+{
+	display:initial;
+	text-decoration: none;
+	color:  #fff;
+}
+
+.footer-main .footer-menue *:hover
+{
+	color: #fed136;
+	text-shadow: 0 0 8px #fed136;
+}
+
+/* Footer social icons */
+
+.footer-logo
+{
+	float:right;
+	margin: 20px;
+}
+
+.footer-right
+{
+	width: 100%;
+}
+
+/* Contact Form and I frames */
+
+.contact-form
+{
+	margin-top: 20px;
+	align-items: center;
+	background-color: #eee;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+form
+{
+	margin: 20px;
+}
+
+.input:focus
+{
+	background: #c4dfef none repeat scroll 0 0;
+}
+
+.center-heading
+{
+	text-align: center;
+}
+
+iframe
+{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.g-maps
+{
+	background-color: #eee;
+	justify-content: center;
+	border-radius: 20px;
+	display: flex;
+	margin: 0 200px;
+}
+
+/* Logos and Facebook Image */
+
+.thumbnail
+{
+	width:44px;
+	height: 50px;
+	background-image: url("../../_img/peggert-logo-thumbnail.png");
+	background-size: contain;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.logo-footer
+{
+	width:100px;
+	height: 110px;
+	background-image: url("../../_img/peggert-logo-footer.png");
+	background-size: contain;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.facebook-thumbnail-footer
+{
+	width: 30px;
+	height: 30px;
+	background-image: url("../../_img/faccebook-icon.png");
+	background-size: contain;
+	margin-top: 50px;
+	padding: 0;
+}

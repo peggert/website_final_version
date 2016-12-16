@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="Peggert's Blog" content="Blog about User experience design">
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="../_img/browser-tab-icon.ico" />
+<title>Peggert's Blog</title>
+<!-- Main CSS -->
+<link rel="stylesheet" href="../_css/files/main.css">
+<link rel="stylesheet" href="../_css/files/layout.css" >
+<link rel="stylesheet" href="../_css/files/content.css" >
+<!--Font -->
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+<body>
+<main>
+  <header class="header">
+    <div class="home-menu peggert-menu horizontal-menu fixed-menu"> <a href="home.html">
+      <div class="thumbnail"> </div>
+      </a> <a class="menu-heading" href="home.html">Peggert's Blog</a>
+      <nav>
+        <ul class="peggert-menu-list">
+          <li class="peggert-menu-item"><a href="home.html" class="linked-to-peggert-menu">Home</a></li>
+          <li class="peggert-menu-item"><a href="categories.html" class="linked-to-peggert-menu">Categories</a></li>
+          <li class="peggert-menu-item"><a href="contact.html" class="linked-to-peggert-menu">Contact</a></li>
+          <li class="peggert-menu-item"><a href="impressum.html" class="linked-to-peggert-menu">Impressum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="blog-container">
+    <div class="blog">
+      <h1 class="blog-head">Bootcamp</h1>
+      <p class="blog-subhead"> The Bootcamp was a week in university in which we learned about the program processing </p>
+    </div>
+  </div>
+  <section class="content-chest">
+    <div class="content">
+      <div class="container">
+        <div class="blog-post-text">
+          <article>
+            <h2 class="content-head">Bootcamp</h2>
+            <figure> <img src="../_img/home/bootcamp.jpg" width="900"  alt="Botcamp cover"> </figure>
+            <h2>Day 1 - 04/11/2016</h2>
+            <h3><strong>Recapitulation</strong></h3>
+            <p>In the first &ldquo;listen&rdquo; segment we were introduced to the program and the the structure of the code. Furthermore, I learned how to test the code code and to visualize how it works using the &ldquo;printnl&rdquo; command (&ldquo;Hello World&rdquo;). The program would show e.g. a text, an integer, or the frame rate in the command box. The structure was very intuitive and easy to understand. Every code starts with a function, and ends with a semicolon (&ldquo; ; &rdquo;). The functions mostly consist out of the shape you want to create or the part of the shape you want to edit. Syntaxes that are used to create shapes would for example be; &ldquo;ellipse(), rect(), triangle() etc.&rdquo;. The brackets after the commands will contain the coordinates and other specifications of the shape. To further edit elements there are a number of attribute functions such as: &ldquo;strokeWeight(), fill() or noStroke()&rdquo; can be added in front of the shape function. Beside these attribute functions, we also learned how to use the RGB colour scale in our code. I learned about the writing style called camelCase which helps to read and distinct words from each other by capital letters at the beginning of a new word (eg. noStroke&rdquo;) .</p>
+            <p>Furthermore I gained knowledge about the canvas itself. I learned how the canvas was made up, and how to position shapes on it. This knowledge helped when learning about flow and looping. Looping sketches with the &ldquo;void draw() {}&rdquo; &nbsp;function, made the sketch more vivid and alive and also made it possible to create animations. Additionally I learned about variables and how to use them. Variables are basically containers capable of storing and containing data. This is very useful, when using a number more than once or when planing on randomising a number which will be used elsewhere in the code.</p>
+            <h3><strong>Assignment</strong></h3>
+            <p>The assignment was to create a sketch which had randomness implanted into it. My initial idea was to create a building that had lights whose brightness &nbsp;depend on the sky's colour. The sky is supposed to sustain blue. In theory; the brighter the sky, the darker the lights in the building and the other way around. I was able to implant this function into my sketch by creating integers for each RGB colour of the sky and windows and + or - them by a randomised integer, that I called time. The time integer would pick a random number between zero and 100 and will either be added or subtracted from the RGB colour scheme (see image). &nbsp;</p>
+            <p>After making the lights match the sky I started adding visuals like such as the hills the hills and suns (ellipses) to the sketch. To make it look more realistic I added transparency to the sun to create a shining effect. Furthermore, I wanted to add randomness to which of which lights would be switched on and which one is going to be switched off. In order to randomise the light for each light, I &nbsp;created &nbsp;an integer called &ldquo;switchOnOff. The integer chooses a number between zero and two which I then us to multiply the RGB color scheme of the windows. This will either switch on the light or switch it of. Since I needed to create this line of code for every window I pasted it in front of every window (rect).</p>
+            <p>Dark sky, bright lights.</p>
+            <figure> <img src="../_img/bootcamp_post/bright-yellow.JPG" width="450" alt="Bright yellow example"> </figure>
+            <p>Bright sky, darker lights.</p>
+            <figure> <img src="../_img/bootcamp_post/darkYellow.JPG" width="450"  alt="Example picture"> <img src="../_img/bootcamp_post/Capturebulidingandsky.JPG" width="450" alt="code"> </figure>
+            <h2>Day 2 - 07/11/2016</h2>
+            <h3><strong>Recapitulation</strong></h3>
+            <p>On day two I gained insights on how to create interactive sketches. We learned about the concept of how frames correlate with the speed of the animation/sketch and how we can interact with it via controls of the keyboard and the mouse. In order to make the program more responsive to actions and values of variables, we learned about conditionals. Conditionals allow the program to make decisions based on statements which are expressed in an &ldquo;if&rdquo; or &ldquo;else&rdquo; function. The program evaluates the &ldquo;test&rdquo; that resolves to either be true or false and based on that executes or does not execute the statement. &nbsp;The statement contains the lines of code that will be executed when the test resolved to be true. This is very useful when wanting to create an animation which has different outcomes.</p>
+            <p>The topic of how to add interactivity was a big part of the listening segment. I learned how the mouse coordinates can be used to for example move an object over the canvas. The interactivity of processing features all kind of input methods. We explored input methods from the keyboard, mouse buttons and mouse axis. Keyboard and mouse buttons can be used to display letters with &ldquo;text()&rdquo; or &ldquo;key&rdquo; commands or to give instructions of what to do if, while or when not pressed.</p>
+            <p>The order in which objects move over the canvas is called the flow of the program. Another topic that we discussed and learned about was keyboard data. This flow can be stopped by the &ldquo;noLoop()&rdquo; function. This function is useful to set an end to the animation, by the use of conditions.</p>
+            <h3><strong>Assignment</strong></h3>
+            <p>The assignment was to create a game. I like the idea of using the cursor to steer an object. I wanted to implement this functionality into the program which I did by using the mouse coordinates (mouseX and mouseY). I called the game&ldquo; The Roswell Crash&rdquo; since the concept of the game is to steer the &ldquo;Roswell UFO&rdquo; through the incoming asteroids. The challenge is to navigate the object without crashing it too often. </p>
+            <p>I created a health bar which has an initial value of 1000 and illustrates the amount of health left. &nbsp;Whenever the UFO collides with an asteroid the health bar shrinks depending on velocity of the obstacle and size. In addition to the subtraction of live the display turns black, which makes it harder to avoid the upcoming obstacles. For the collision detection I used the so called &ldquo;dist()&rdquo; function, that allows to measure the distance between two points. Whenever the two points get to close, the collision will be detected and the if statement turns true. When the if statement is true the health bar will shrink and the background will be set to: &ldquo;(0)&rdquo;. When the health bar is below zero the game will end with a noLoop() function and show an image, which was created on photoshop ( <em>if (lives &lt;=0)</em> ). However the game has an objective, which is to prevent the Roswell crash from happening. For this I used the &ldquo;text()&rdquo; function to tell the user what the objective is and a kilometer counter in the top right corner. When the user makes it over 35,000 kilometers the game will end and show a different image. I added the photos by the Pimage function which allows to import images from the &ldquo;data&rdquo; folder. &nbsp;To make the game looking aesthetically pleasing, I removed the cursor and added a background.</p>
+            <figure> <img src="../_img/bootcamp_post/crashbg.jpg" width="450" alt="crash background"> <img src="../_img/bootcamp_post/finishbg.jpg" width="450" alt="Successfull background"> <img src="../_img/bootcamp_post/UFOGamecapture2.JPG" width="450" alt="ufo Screenshot"> <img src="../_img/bootcamp_post/UFOGamecapture.JPG" width="450" alt="game screenshot with arrow indications"> </figure>
+            <h2>Day 3 - 08/11/2016</h2>
+            <h3><strong>Recapitulation</strong></h3>
+            <p>The third day was about deepening the understanding of what we learned about the last days and about increasing efficiency in coding. The first listening part was also about understanding where to insert indents, and how to format the code in general. The &nbsp;blocks of code, that shorten repetitive code into compact expressions are called iterate structures. We learned how to integrate them into our code and how to use it in different scenarios and with different objectives. The functions &ldquo;<strong>while/for</strong>(test) {statement}&rdquo; are used to loop or repeat lines of codes for a specific amount of time or loops. The difference between these types of loops is that a while loop always executes a code while the test reveals to be true and a for loop stops whenever a specific value &nbsp;in the statement or of a integer is reached.</p>
+            <p>Furthermore I learned how to create functions, in order to shorten code and to create more complex sketches and animations. Creating functions makes the code unique and adapt to your needs. A self created function can for example contain specifics of what shape to display, and in what colour and with which stroke weight. Theses functions, can than be used multiple times and can be changed through variables (integers) inside the function. I also gained insights into how to calculate and when and how to return values. This can be helpful to return values of calculations into variables. </p>
+            <h3><strong>Assignment</strong></h3>
+            <p>The Assignment was to create an interactive sketch. I decided, to make my sketch interactive by the use of sounds and pictures, that respond to the mouse position. My idea was to create two buttons that as soon as you hover over them with the cursor change the background and sound. To implement sounds into the sketch I used the sound library by the &ldquo;Processing Foundation&rdquo;. &nbsp;To activate the sounds I needed to type in the following command: &ldquo;import processing.sound.*;&rdquo; . Furthermore, I needed to give the sound file a name (SoundFile <strong><em>name</em></strong>;) and I needed to activate and give a path to the specific file by using the following command: &nbsp;&ldquo;<strong><em>name</em></strong> 0 new SoundFile (this, &ldquo;<strong><em>name</em></strong>.mp3&rdquo;);&rdquo;.However to make it play or to stop playing the sound another command was needed another command. In order to make the sound stop playing I created two variables. One integer for when the ball is inside one of the circles and one for being in the other circle. Boths initial values were set to zero. By using an &ldquo;else if&rdquo;function I managed to only play the sound when the cursor is inside circle and stop the song as soon as the cursor is outside.</p>
+            <figure> <img src="../_img/bootcamp_post/codeinteractivesktech.jpg" width="450" alt="Code of interactive sketch"> <img src="../_img/bootcamp_post/water.jpg" width="450" alt="water"> <img src="../_img/bootcamp_post/fire.jpg" width="450" alt="fire"> </figure>
+            <p>Furthermore I used a function to create the two circles and to set a mutual stroke weight and colour. Within the function I was able to set individual x and y coordinates and edit the size of the radius. The background image &nbsp;is also responsive to the mouse position and correlates with the sound that is being played. Whenever no song is played the background turns to the black default background.</p>
+            <h2>Day 4 - 09/11/2016</h2>
+            <h3><strong>Recapitulation</strong></h3>
+            <p>On day four we learned about another method to store values. Arrays are basically sets of data that are stored under the same name and can contain numbers, characters, sentences, values, etc.. At first we learned how to define an array. Arrays are first declared by the command &ldquo;int[] data = {data};&rdquo; and can than be created with the keyword &ldquo;new&rdquo; in the set up part of the code. After the array is created the elements of the data set need to be assigned. Furthermore, we learned about the different ways &nbsp;arrays can be declared, created and assigned. In this listening segment learned how the array works in a for loop based on examples inside the presentation. Furthermore I gained knowledge on how array elements are read by the computer and the software. The for loop function first initializes the array and tests the if the test turns true or false. If the test turns out to be true, the action inside the statement including the array data will be executed. In addition to that I learned how to use all data elements in one function. The command: &ldquo;<em>nameOfArray</em><strong>.length</strong>&rdquo; will automatically include the whole length of the array into the code. This function is useful when creating a for loop that includes all data elements.</p>
+            <h3><strong>Assignment</strong></h3>
+            <p>The assignment for day 4 of the bootcamp was to create a game that has a main character or avatar and includes enemies or obstacles. In addition to that we were supposed to keep track of the score that was reached every time the game was played. I decided to create a car game called &ldquo;Ghost Rider&rdquo;. The scenario of the game is a car that drives on the wrong lane and needs to avoid approaching cars. The &ldquo;ghost rider car&rdquo; can be steered to the right and to the left side of the road. I used the &ldquo;void keyPressed&rdquo; command to integrate the arrow buttons into the game. Each time the player presses the left or right arrow key the car moves 60 pixels to equivalent direction. There are three different cars approaching the player, each car has it's on speed and randomised position on the street. Additionally I have added a function for the street lines. The street lines and cars spawn on the x coordinate 0 when they pass out of the canvas (x= 1500). &nbsp;These visual create the feeling actually of travelling on a road. For this game I used the dist function again, to measure the distance between each car and the player's car. If the player gets to close to an approaching car the game ends with a &ldquo;noLoop()&rdquo; command and a red background is displayed. Whenever a car passes through the whole canvas, the score increases by one. The score is displayed in the console by the use of the &ldquo;println()&rdquo; function. Furthermore, the game features sounds. One sound is continues, throughout &nbsp;the game and plays a sound o a car driving. The second sound is a crash sound, that is played when the player collides with a car.</p>
+            <figure> <img src="../_img/bootcamp_post/crashghostrider.JPG" width="450" alt="crash"> <img src="../_img/bootcamp_post/final_day_three.JPG" width="450" alt="game screenshot"> </figure>
+            <h2>Day 5 - 10/11/2016</h2>
+            <h3><strong>Assignment</strong></h3>
+            <p>On Day five I continued to improve &ldquo;The Ghost Rider&rdquo; . I started by setting a border to the street, to prevent the player from being able to go off the road. This was an important improvement which was achieved by using an &ldquo;if&rdquo; function. Furthermore, I edited the street lanes, and added a border to the street. To avoid repetitive code I created a function and an array for the street lanes. Another visual change to the previous version was the score, that is now shown in the top right corner. </p>
+            <p>However the most important addition was a fuel tank, that makes the game a lot more difficult. The tank empties over time. The amount of fuel is being shown in the top left corner and can be fueled up by hovering over the fuel cannister. The longer one stays on the fuel can the more fuel is being collected. The fuel makes it more difficult to decide between avoiding a crash or collecting fuel (see image). The fuel bar ( rect() ) is responsive and changes every single frame and uses the value of the fuel tank for it's second x value.. The game ends when the fuel is empty and the player failed to collect enough petrol. This scenario and the scenario of a crash end the game, and were given a new background image and sound fitting to the scenario. Sounds were inserted through the library and included in the if functions to only play when appropriate</p>
+            <figure> <img src="../_img/bootcamp_post/crash.JPG" width="450" alt="crash new look"> <img src="../_img/bootcamp_post/ghostriderfinal1.JPG" width="450" alt="final screenshot of finished game"> <img src="../_img/bootcamp_post/outoffuel.JPG" width="450" alt="out of fuel picture"> </figure>
+            <h2>Final Reflection</h2>
+            <p>When reflecting over the past days, it becomes clear that the bootcamp helped a lot to understand the basic process of creating software. Furthermore, it gave a many insights on the various building blocks used in processing. &nbsp;The past days stimulated my creativity and gave me the opportunity to create animations and interactive sketches, that until this point I only could imagine. From day to day I gathered new insights that helped me to understand how I could have made the previous codes more efficient and complex. The very first code that I have written is very repetitive and does not contain iterate structures which underlined the process over the past days and the importance of complex and iterate structures. The past days were very interesting and contained a lot of information and inspiration. Furthermore, I think that processing will help a lot to illustrate ideas and concepts of interactions between software and users in the future. Overall the course changed my perception of programs and their complexity</p>
+          </article>
+        </div>
+      </div>
+      <footer class="footer-main">
+        <div class="footer-left">
+          <h3>PEGGERT'S BLOG</h3>
+          <nav>
+            <p class="footer-menue"> <a href="home.html">Home</a> · <a href="categories.html">Categories</a> · <a href="contact.html">Contact</a> · <a href="impressum.html">Impressum</a> </p>
+          </nav>
+          <a href="http://www.facebook.com/peggertsblog">
+          <div class="facebook-thumbnail-footer"> </div>
+          </a> </div>
+        <a href="home.html">
+        <div class="logo-footer"> </div>
+        </a> </footer>
+    </div>
+  </section>
+</main>
+</body>
+</html>

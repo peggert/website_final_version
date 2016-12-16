@@ -1,0 +1,282 @@
+
+/* CSS Document */
+/* Contents: Category section on Hompage */
+
+#category
+{
+	max-width: 90%;
+	padding: 0;
+	font-size: 10;
+	list-style: none;
+	margin: 0 auto;
+	justify-content: center;
+	align-content: ceneter;
+	display: flex;
+	align-items: center;
+}
+
+#category li
+{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+	box-sizing: border border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#category li:hover .category-img
+{
+	transform: scale(1.09);
+}
+
+.category-cell
+{
+	margin: 2%;
+	box-shadow:0 0 6px rgba(0,0,0,0.3);
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.category-img
+{
+	width: 100%;
+	display: block;
+	height: auto;
+	border: none;
+	transform: scale(1);
+	transition: all 1.1s;
+}
+
+.category-overlay
+{
+	background: #4e79c4;
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	background-size:50px 50px;
+	opacity:0;
+	transition:all 0.75s
+}
+
+#category li:hover .category-overlay
+{
+	opacity:0.4;
+}
+
+#category li:hover .category-text
+{
+	opacity:0.9;
+}
+
+.category-text
+{
+	display:block;
+	padding:0 30px;
+	box-sizing:border-box;
+	position:absolute;
+	left:0;
+	width:100%;
+	top: 40%;
+	color:white;
+	transition:all .6s;
+	opacity: 0;
+	text-align:center;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:capitalize;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/* CSS Style for my Current Blog Highlight */
+#highlight
+{
+	max-width: 900px;
+	padding: 0;
+	font-size: 10;
+	list-style: none;
+	margin: 0 auto;
+7
+}
+
+#highlight li
+{
+	display: inline-block;
+	width: 33, 3%;
+	vertical-align: middle;
+	box-sizing: border border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#highlight li:hover .highlight-img
+{
+	transform: scale(1.09);
+}
+
+.highlight-cell
+{
+	margin: 2%;
+	box-shadow:0 0 6px rgba(0,0,0,0.3);
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.highlight-img
+{
+	width: 100%;
+	display: block;
+	height: auto;
+	border: none;
+	transform: scale(1);
+	transition: all 1.1s;
+}
+
+.highlight-overlay
+{
+	background: #4e79c4;
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	background-size:50px 50px;
+	opacity:0;
+	transition:all 0.75s
+}
+
+#highlight li:hover .highlight-overlay
+{
+	opacity:0.4;
+}
+
+#highlight li:hover .highlight-text
+{
+	opacity:0.9;
+}
+
+.highlight-text
+{
+	display:block;
+	padding:0 30px;
+	box-sizing:border-box;
+	position:absolute;
+	left:0;
+	width:100%;
+	top: 40%;
+	color:white;
+	transition:all .6s;
+	opacity: 0;
+	text-align:center;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:capitalize;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/*CSS Style for recent blog posts*/
+
+
+#recent
+{
+	max-width: 800px;
+	padding: 0;
+	font-size: 10;
+	list-style: none;
+	margin-left: 26%;
+}
+
+#recent li
+{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+	box-sizing: border border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#recent li:hover .recent-img
+{
+	transform: scale(1.09);
+}
+
+.recent-cell
+{
+	margin: 2%;
+	box-shadow:0 0 6px rgba(0,0,0,0.3);
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.recent-img
+{
+	width: 100%;
+	display: block;
+	height: auto;
+	border: none;
+	transform: scale(1);
+	transition: all 1.1s;
+}
+
+.recent-overlay
+{
+	background: #4e79c4;
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	background-size:50px 50px;
+	opacity:0;
+	transition:all 0.75s
+}
+
+#recent li:hover .recent-overlay
+{
+	opacity:0.4;
+}
+
+#recent li:hover .recent-text
+{
+	opacity:0.9;
+}
+
+.recent-text
+{
+	display:block;
+	padding:0 30px;
+	box-sizing:border-box;
+	position:absolute;
+	left:0;
+	width:100%;
+	top: 40%;
+	color:white;
+	transition:all .6s;
+	opacity: 0;
+	text-align:center;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:capitalize;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+article
+{
+	display: block;
+	max-width: 70%;
+}
